@@ -20,7 +20,7 @@ export default new Router({
     {
       path: "/",
       name: "HelloWorld",
-      component: () => import('./views/Home.vue')
+      component: () => import('./views/login.vue')
     },
     {
       path: "/pro_book",

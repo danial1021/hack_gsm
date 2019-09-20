@@ -3,6 +3,7 @@
     <div class="logo">
       <img
         width="240"
+        onclick="javascript:location.href='http://localhost:8080';"
         src="https://cdn.discordapp.com/attachments/582818759337705482/624517087204868096/logo.png"
       />
     </div>
@@ -74,11 +75,11 @@ li {
 }
 li:not(:first-child):before {
   content: "|";
-  padding: 0 2em 0 2em;
+  padding: 0 0.5em 0 0.5em;
   color: #999;
 }
 .logo {
-  background-color: rgb(100, 100, 100);
+  background-color: rgb(41, 41, 41);
   text-align: center;
   padding-top: 40px;
 }
@@ -86,7 +87,7 @@ li:not(:first-child):before {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 15px;
-  background-color: rgb(100, 100, 100);
+  background-color: rgb(41, 41, 41);
   color: rgb(218, 218, 218);
 }
 .menu-items > div > li:hover {
