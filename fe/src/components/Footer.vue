@@ -23,5 +23,8 @@ export default {
 <style scoped>
 .color {
   color: #fff;
+  width: 100%;
+  height: 100px;
+  text-align: right;
 }
 </style>

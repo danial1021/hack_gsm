@@ -1,0 +1,28 @@
+USER [
+  id: 1 (INTEGER AUTO_INCREASE)
+  account: "test" (STRING)
+  password: "a$Aa$AEae" (STRING,)  bcrypt암호화해서 넣기
+  point: 1000 (INTEGER)
+  solved: "[1,2,3,4,5,6 .... ]" (STRING)
+]
+PROBLEM [
+id: 
+title:
+
+]
+
+
+API
+
+GET /userList
+
+node express
+select * from USER 
+[{
+
+}]
+
+
+VUE
+axios
+{}
